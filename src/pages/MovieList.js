@@ -1,5 +1,6 @@
 import MovieCard from "../components/MovieCard";
 import MovieListFilter from "../components/MovieListFilter";
+import { useLocation } from "react-router-dom";
 
 import movies from "../dummy-data";
 

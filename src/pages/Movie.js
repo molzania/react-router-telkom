@@ -4,7 +4,9 @@ import { useParams } from "react-router-dom";
 
 const Movie = () => {
   // Variable berikut akan menampung data movie yang akan kita tampilkan
+  let {title, image_url, score} = useParams();
   const movie = {};
+  
   return (
     <div className="row my-5">
       <div className="card mb-3 p-0">
